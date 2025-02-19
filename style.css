@@ -8,7 +8,7 @@
 /* Corpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-color: #414141;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -27,6 +27,7 @@ body {
     width: 300px;
     height: auto;
     animation: shakeY 0.5s ease-in-out infinite;
+    
 }
 
 @keyframes shakeY {
@@ -59,7 +60,7 @@ body {
 
 /* Efeito nos botões */
 .btn:hover {
-    background-color: #d23bd2;
+    background-color: #eb13137e;
     transform: scale(1.1);
 }
 
@@ -70,7 +71,7 @@ body {
     left: 50%;
     width: 300%;
     height: 300%;
-    background-color: #72006c9f;
+    background-color: #d4020293;
     transition: width 0.4s, height 0.4s, top 0.4s, left 0.4s;
     border-radius: 50%;
     z-index: 0;
@@ -98,11 +99,13 @@ body {
 
 /* Estilos do corpo */
 body {
+    background: linear-gradient(to bottom, #413b3b, #250000); /* Gradiente preto para branco */
+    height: 100vh; /* Garante que o gradiente ocupe toda a altura da janela */
+    margin: 0; /* Remove a margem padrão */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000000;
     font-family: Arial, sans-serif;
     overflow: hidden;
 }
@@ -110,7 +113,7 @@ body {
 /* Caixa de texto rolando */
 .texto-rolando {
     font-size: 30px;
-    color: #d23bd2;
+    color: #e41223;
     white-space: nowrap; /* Impede o texto de quebrar em múltiplas linhas */
     animation: rolar 15s linear infinite;
 }
